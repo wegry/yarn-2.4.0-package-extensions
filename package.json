@@ -1,6 +1,7 @@
 {
   "name": "yarn_2.4.0",
   "dependencies": {
+    "react": "^17.0.1",
     "react-twitter-widgets": "^1.9.5"
   },
   "devDependencies": {

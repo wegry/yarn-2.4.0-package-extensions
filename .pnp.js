@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["react", "npm:17.0.1"],
             ["react-twitter-widgets", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:1.9.5"],
             ["webpack", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:5.11.1"],
             ["webpack-cli", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:4.3.1"]
@@ -797,6 +798,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["js-tokens", [
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-1fc4e4667a.zip/node_modules/js-tokens/",
+          "packageDependencies": [
+            ["js-tokens", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["json-parse-better-errors", [
         ["npm:1.0.2", {
           "packageLocation": "./.yarn/cache/json-parse-better-errors-npm-1.0.2-7f37637d19-b4c4f0e43b.zip/node_modules/json-parse-better-errors/",
@@ -856,6 +866,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.20-c0db62021c-c62101d250.zip/node_modules/lodash/",
           "packageDependencies": [
             ["lodash", "npm:4.17.20"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["loose-envify", [
+        ["npm:1.4.0", {
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-5c3b47bbe5.zip/node_modules/loose-envify/",
+          "packageDependencies": [
+            ["loose-envify", "npm:1.4.0"],
+            ["js-tokens", "npm:4.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -921,6 +941,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["npm-run-path", "npm:4.0.1"],
             ["path-key", "npm:3.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["object-assign", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-66cf021898.zip/node_modules/object-assign/",
+          "packageDependencies": [
+            ["object-assign", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1044,6 +1073,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react", [
+        ["npm:17.0.1", {
+          "packageLocation": "./.yarn/cache/react-npm-17.0.1-98658812fc-a76d86ec97.zip/node_modules/react/",
+          "packageDependencies": [
+            ["react", "npm:17.0.1"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-twitter-widgets", [
         ["npm:1.9.5", {
           "packageLocation": "./.yarn/cache/react-twitter-widgets-npm-1.9.5-20a9b31f31-9e85a53825.zip/node_modules/react-twitter-widgets/",
@@ -1059,7 +1099,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/runtime", "npm:7.12.5"],
             ["@types/react", null],
             ["loadjs", "npm:4.2.0"],
-            ["react", null]
+            ["react", "npm:17.0.1"]
           ],
           "packagePeers": [
             "@types/react",
@@ -1444,6 +1484,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn_2.4.0", "workspace:."],
+            ["react", "npm:17.0.1"],
             ["react-twitter-widgets", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:1.9.5"],
             ["webpack", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:5.11.1"],
             ["webpack-cli", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:4.3.1"]
