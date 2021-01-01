@@ -1,0 +1,10 @@
+{
+  "name": "yarn_2.4.0",
+  "dependencies": {
+    "react-twitter-widgets": "^1.9.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
