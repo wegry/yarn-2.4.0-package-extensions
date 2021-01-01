@@ -44,6 +44,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
+      ["@babel/runtime", [
+        ["npm:7.12.5", {
+          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.12.5-b3edb8ee8e-423fb00793.zip/node_modules/@babel/runtime/",
+          "packageDependencies": [
+            ["@babel/runtime", "npm:7.12.5"],
+            ["regenerator-runtime", "npm:0.13.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@discoveryjs/json-ext", [
         ["npm:0.5.2", {
           "packageLocation": "./.yarn/cache/@discoveryjs-json-ext-npm-0.5.2-88001749a7-c78049a1f7.zip/node_modules/@discoveryjs/json-ext/",
@@ -1046,6 +1056,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/react-twitter-widgets-virtual-99648219c0/0/cache/react-twitter-widgets-npm-1.9.5-20a9b31f31-9e85a53825.zip/node_modules/react-twitter-widgets/",
           "packageDependencies": [
             ["react-twitter-widgets", "virtual:99f948debb43b3339998a5f4ae862d828e1500f807bc17342a4c750be81b4bed9b135fd6454b579946c3f534750cce483db4585a2faff2bc91367a57c54e9325#npm:1.9.5"],
+            ["@babel/runtime", "npm:7.12.5"],
             ["@types/react", null],
             ["loadjs", "npm:4.2.0"],
             ["react", null]
@@ -1063,6 +1074,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["rechoir", "npm:0.7.0"],
             ["resolve", "patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["regenerator-runtime", [
+        ["npm:0.13.7", {
+          "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.7-41bcbe64ea-6ef567c662.zip/node_modules/regenerator-runtime/",
+          "packageDependencies": [
+            ["regenerator-runtime", "npm:0.13.7"]
           ],
           "linkType": "HARD",
         }]
